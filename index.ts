@@ -329,7 +329,7 @@ async function writeFile(
 
 // ── mjs linter ────────────────────────────────────────────────────────
 
-const FZ_SDK_DIR = pathResolve(__dirname, "../../skills/flipper/references/fz-sdk");
+const FZ_SDK_DIR = pathResolve(__dirname, "skills/flipper/references/fz-sdk");
 
 interface MjsIssue { line: number; text: string; error: string; }
 
