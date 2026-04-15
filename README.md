@@ -14,7 +14,13 @@ A [Pi](https://github.com/badlogic/pi-mono) extension for controlling a **Flippe
 
 ## Install
 
-Add to your Pi `settings.json`:
+Quick start — run Pi with the extension directly:
+
+```bash
+pi -e https://github.com/ivanvza/pi-flipper-hid
+```
+
+Or add to your Pi `settings.json` for permanent installation:
 
 ```json
 {
@@ -27,14 +33,8 @@ Add to your Pi `settings.json`:
 Or copy the extension manually:
 
 ```bash
-cp -r . ~/.pi/agent/extensions/flipper
+git clone https://github.com/ivanvza/pi-flipper-hid.git ~/.pi/agent/extensions/flipper
 cd ~/.pi/agent/extensions/flipper && npm install
-```
-
-Copy the skills:
-
-```bash
-cp -r skills/flipper ~/.pi/agent/skills/flipper
 ```
 
 ## Prerequisites
