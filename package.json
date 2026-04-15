@@ -1,0 +1,16 @@
+{
+  "name": "pi-flipper-hid",
+  "version": "1.0.0",
+  "description": "Pi extension for controlling a Flipper Zero via CLI over USB serial",
+  "license": "MIT",
+  "keywords": ["pi", "flipper-zero", "serial", "cli", "hid"],
+  "dependencies": {
+    "@serialport/parser-readline": "^12.0.0",
+    "serialport": "^12.0.0",
+    "typescript": "^6.0.2"
+  },
+  "pi": {
+    "extensions": ["./index.ts"],
+    "skills": ["./skills"]
+  }
+}
