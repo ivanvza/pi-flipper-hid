@@ -2,6 +2,8 @@
 
 A [Pi](https://github.com/badlogic/pi-mono) extension for controlling a **Flipper Zero** via CLI over USB serial.
 
+> Read the story behind this extension: [Giving a Pi.dev Agent Hands on a Flipper Zero](https://blog.navcore.io/AI-Agents/Giving-a-Pi.dev-Agent-Hands-on-a-Flipper-Zero)
+
 ## Features
 
 - Connect to Flipper Zero over USB serial (auto-detect)
